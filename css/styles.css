@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-     
+       
   .icon {
     font-size: 4rem;
     display: flex;
@@ -40,11 +40,13 @@ body {
     align-self: center;
     }  
 
-  p {
-    margin-bottom: auto;
-  }
-  
+  /*p {
+    /*margin-bottom: auto;
+    /*height: 130px;
+  }*/
+
     .emoji a {
      align-self: stretch;
-    /*align-self and align-items work on the cross axix, justify-content works on the main axis of the flex container, I decided to align-self : stretch to use the flex element and stretch it as requested and align it to the bottom by adding margin-bottom: auto to the paragraph*/
+     margin-top: auto;
+    /*align-self and align-items work on the cross axix, justify-content works on the main axis of the flex container, I decided to align-self : stretch to use the flex element and stretch it as requested and align it to the bottom by adding margin-bottom: auto to the paragraph or add margin-top auto to the emoji*/
     } 
