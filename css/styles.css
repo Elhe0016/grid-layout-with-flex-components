@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    width: 900px;
+  }
+
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .emojis {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+     
+  .icon {
+    font-size: 4rem;
+    display: flex;
+    order: -1;
+    align-self: center;
+    }  
+
+  p {
+    margin-bottom: auto;
+  }
+  
+    .emoji a {
+     align-self: stretch;
+    /*align-self and align-items work on the cross axix, justify-content works on the main axis of the flex container, I decided to align-self : stretch to use the flex element and stretch it as requested and align it to the bottom by adding margin-bottom: auto to the paragraph*/
+    } 
